@@ -14,7 +14,7 @@ public class Exercicio05 {
         int quociente = primeiroNumero / segundoNumero;
         int resto = primeiroNumero % segundoNumero;
 
-        System.out.println("Quociente: " + quociente);
-        System.out.println("Resto: " + resto);
+        System.out.println("O Quociente é: " + quociente);
+        System.out.println("O Resto é: " + resto);
     }
 }
