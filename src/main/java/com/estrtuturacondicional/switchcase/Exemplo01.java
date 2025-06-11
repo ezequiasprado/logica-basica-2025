@@ -35,6 +35,8 @@ public class Exemplo01 {
             case 4:
                 System.out.println("Sair");
                 break;
+            default:
+                System.out.println("Número não informado");
         }
     }
 }
