@@ -1,4 +1,4 @@
-package main.java.com;
+package main.java.com.introducaobasica;
 
 public class Divisao {
     public static void main(String[] args) {

@@ -1,20 +1,18 @@
-package main.java.com;
+package main.java.com.introducaobasica;
 
 import java.util.Scanner;
 
-public class Exercicio01 {
+public class Multiplicacao {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         System.out.println("Digite o primeiro número:");
         double primeiroNumero = scanner.nextDouble();
 
         System.out.println("Digite o segundo número:");
         double segundoNumero = scanner.nextDouble();
 
-        double soma = primeiroNumero + segundoNumero;
-        double media = soma /2;
-
-        System.out.println("A média é:");
-        System.out.println(media);
+        System.out.println("O resultado da multiplicação é:");
+        System.out.println(primeiroNumero * segundoNumero);
     }
 }

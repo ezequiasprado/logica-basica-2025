@@ -1,18 +1,20 @@
-package main.java.com;
+package main.java.com.introducaobasica;
 
 import java.util.Scanner;
 
-public class Subtracao {
+public class Exercicio01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.println("Digite o primeiro número:");
         double primeiroNumero = scanner.nextDouble();
 
         System.out.println("Digite o segundo número:");
         double segundoNumero = scanner.nextDouble();
 
-        System.out.println("O resultado da subtração é:");
-        System.out.println(primeiroNumero - segundoNumero);
+        double soma = primeiroNumero + segundoNumero;
+        double media = soma /2;
+
+        System.out.println("A média é:");
+        System.out.println(media);
     }
 }
