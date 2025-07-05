@@ -8,7 +8,7 @@ public class Teste {
 
         int contador = 0;
         while (contador < 3){
-            System.out.println("Número: " + contador);
+            System.out.println("Números: " + contador);
             contador = contador + 1;
         }
     }
